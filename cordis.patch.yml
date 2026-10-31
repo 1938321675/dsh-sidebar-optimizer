@@ -1,0 +1,7 @@
+# dsh-sidebar-optimizer bundle patch.
+#
+# 一行 insert 挂载插件本体（浏览器半身在 lib/client.js）。
+- insert:
+    - id: sidebar-optimizer
+      name: 'dsh-sidebar-optimizer'
+      config: {}
